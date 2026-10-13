@@ -1,18 +1,16 @@
 [
   {
-    "relation": ["delegate_permission/common.handle_all_urls"],
-    "target": {
-      "namespace": "android_app",
-      "package_name": "name.levis.ichor.foss",
-      "sha256_cert_fingerprints": ["REPLACE_WITH_RELEASE_KEY_SHA256"]
-    }
-  },
-  {
-    "relation": ["delegate_permission/common.handle_all_urls"],
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
     "target": {
       "namespace": "android_app",
       "package_name": "name.levis.ichor",
-      "sha256_cert_fingerprints": ["REPLACE_WITH_PLAY_APP_SIGNING_KEY_SHA256"]
+      "sha256_cert_fingerprints": [
+        "5C:6E:6C:20:2C:68:BF:C4:BA:DA:E9:A9:59:B9:5D:ED:E8:16:E9:38:18:B0:65:7C:BE:FC:32:47:81:0A:A5:FA",
+        "ED:2D:E7:21:D9:32:4A:D2:97:54:0B:65:65:82:A1:F9:74:7A:0B:D2:D0:08:AF:21:F9:4D:2C:21:2C:AE:C8:E6",
+        "82:AC:00:95:3D:FB:FC:4C:1F:46:DE:55:27:04:06:C5:3C:AB:CC:2E:EF:6C:00:E0:DE:36:CE:F6:86:3A:52:40"
+      ]
     }
   }
 ]
